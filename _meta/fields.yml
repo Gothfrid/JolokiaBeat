@@ -1,0 +1,28 @@
+- key: jolokiabeat
+  title: jolokiabeat
+  description:
+  fields:
+    - name: bean
+      type: group
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION
+      fields:
+        - name: mBeanName
+          type: string
+          description: >
+           Name of the Bean which is retrieved.
+        - name: attributes
+          type: group
+          description: >
+            PLEASE UPDATE DOCUMENTATION
+          fields: 
+            - name: AttributeName
+              type: string
+              description: >
+                The name of requested attribute.
+            - value: value
+              type: string
+              description: >
+                The value of requested attribute.
+
